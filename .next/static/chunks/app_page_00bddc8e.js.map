@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LENOVO/OneDrive/Desktop/deepseek/app/page.js"],"sourcesContent":["\"use client\"\nimport Image from \"next/image\";\nimport { useState } from \"react\";\n\n\n\nconst [expand,setExpand] = useState(false);\nconst [messages,setMessages] = useState([]);\nconst [isLOading,setIsLoading] = useState(false);\nexport default function Home() {\n  return (\n<div>\n  <div className=\"flex h-screen\"> \n    {/* --sidebar */}\n    <div>\n      <div>\n        <Image src={ass} className=\"rotate-180\"></Image>\n      </div>\n    </div>\n\n  </div>\n</div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAMA,MAAM,CAAC,QAAO,UAAU,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;AACpC,MAAM,CAAC,UAAS,YAAY,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE,EAAE;AAC1C,MAAM,CAAC,WAAU,aAAa,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;AAC3B,SAAS;IACtB,qBACF,6LAAC;kBACC,cAAA,6LAAC;YAAI,WAAU;sBAEb,cAAA,6LAAC;0BACC,cAAA,6LAAC;8BACC,cAAA,6LAAC,gIAAA,CAAA,UAAK;wBAAC,KAAK;wBAAK,WAAU;;;;;;;;;;;;;;;;;;;;;;;;;;AAOnC;KAdwB","debugId":null}}]
+}

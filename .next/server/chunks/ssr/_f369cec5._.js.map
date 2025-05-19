@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LENOVO/OneDrive/Desktop/deepseek/app/layout.js"],"sourcesContent":["import { Inter } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst inter = inter({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\n\n\nexport const metadata = {\n  title: \"DeepSeek\",\n  description: \"Full Stack Project\",\n};\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${inter.className}${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAGA,MAAM,QAAQ,MAAM;IAClB,UAAU;IACV,SAAS;QAAC;KAAQ;AACpB;AAIO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YACC,WAAW,GAAG,MAAM,SAAS,GAAG,UAAU,QAAQ,CAAC,YAAY,CAAC;sBAE/D;;;;;;;;;;;AAIT","debugId":null}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LENOVO/OneDrive/Desktop/deepseek/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
